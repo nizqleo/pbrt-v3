@@ -86,6 +86,7 @@
 #include "samplers/random.h"
 #include "samplers/sobol.h"
 #include "samplers/stratified.h"
+#include "samplers/poissondisk.h"
 #include "samplers/zerotwosequence.h"
 #include "shapes/cone.h"
 #include "shapes/curve.h"
@@ -829,6 +830,8 @@ std::shared_ptr<Sampler> MakeSampler(const std::string &name,
         sampler = CreateRandomSampler(paramSet);
     else if (name == "stratified")
         sampler = CreateStratifiedSampler(paramSet);
+    else if (name == "poissondisk")
+        sampler = CreatePoissonDiskSampler(paramSet);
     else
         Warning("Sampler \"%s\" unknown.", name.c_str());
     paramSet.ReportUnused();

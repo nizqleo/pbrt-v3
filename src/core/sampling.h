@@ -52,6 +52,12 @@ void StratifiedSample1D(Float *samples, int nsamples, RNG &rng,
 void StratifiedSample2D(Point2f *samples, int nx, int ny, RNG &rng,
                         bool jitter = true);
 void LatinHypercube(Float *samples, int nSamples, int nDim, RNG &rng);
+
+// Sampling Declarations
+void PoissonDiskSample1D(Float *samples, int nsamples, RNG &rng, bool relaxed = true);
+void PoissonDiskSample2D(Point2f *samp, int nSamples,  RNG &rng, bool relaxed = true);
+
+
 struct Distribution1D {
     // Distribution1D Public Methods
     Distribution1D(const Float *f, int n) : func(f, f + n), cdf(n + 1) {
