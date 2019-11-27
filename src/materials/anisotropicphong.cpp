@@ -46,12 +46,20 @@ void AnisotropicPhongMaterial::ComputeScatteringFunctions(SurfaceInteraction *si
                                                MemoryArena &arena,
                                                TransportMode mode,
                                                bool allowMultipleLobes) const {
+
     // Perform bump mapping with _bumpMap_, if present
     if (bumpMap) Bump(bumpMap, si);
+    Spectrum Rd = RD->Evaluate(*si).Clamp();
+    Spectrum Rs = RS->Evaluate(*si).Clamp();
+    Float Nu = NU->Evaluate(*si);//.Clamp();
+    Float Nv = NV->Evaluate(*si);//.Clamp();
 
-
-    si->bsdf = ARENA_ALLOC(arena, AnosotropicPhongBxDF)(*si, RD, RS, NU, NV);
-
+    BxDF *spec = ARENA_ALLOC(arena, AnosotropicPhongBxDF)(*si, Rd, Rs, Nu, Nv);
+    // BxDF *spec =
+            
+    //assert(spec != NULL);
+    si->bsdf = ARENA_ALLOC(arena, BSDF)(*si);
+    si->bsdf->Add(spec);
 }
 
 AnisotropicPhongMaterial *CreateAnisotropicPhongMaterial(const TextureParams &mp) {

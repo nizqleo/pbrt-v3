@@ -53,15 +53,23 @@ class AnisotropicPhongMaterial : public Material {
                   const std::shared_ptr<Texture<Float>> &Nu,
                   const std::shared_ptr<Texture<Float>> &Nv,
                   const std::shared_ptr<Texture<Float>> &bumpMap)
-        : RD(Rd), RS(Rs), NU(Nu), NV(Nv) , bumpMap(bumpMap) {}
+        : RD(Rd), 
+        RS(Rs), 
+        NU(Nu), 
+        NV(Nv) , 
+        bumpMap(bumpMap) {
+          printf("building material\n");
+        }
     void ComputeScatteringFunctions(SurfaceInteraction *si, MemoryArena &arena,
                                     TransportMode mode,
                                     bool allowMultipleLobes) const;
 
   private:
     // AnisotropicPhongMaterial Private Data
-    std::shared_ptr<Texture<Spectrum>> RD, RS;
-    std::shared_ptr<Texture<Float>> NV,NU;
+    // std::shared_ptr<Texture<Spectrum>> RD, RS;
+    // std::shared_ptr<Texture<Float>> NV,NU;
+    std::shared_ptr<Texture<Spectrum>>  RD, RS;
+    std::shared_ptr<Texture<Float>>  NV, NU;
     std::shared_ptr<Texture<Float>> bumpMap;
 };
 
