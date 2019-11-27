@@ -90,6 +90,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/lights/point.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/lights/point.cpp.o"
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/lights/projection.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/lights/projection.cpp.o"
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/lights/spot.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/lights/spot.cpp.o"
+  "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o"
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/disney.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/fourier.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
   "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/glass.cpp" "/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"

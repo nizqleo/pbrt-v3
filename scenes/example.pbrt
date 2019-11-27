@@ -1,23 +1,28 @@
-LookAt 3 0 0.01 # eye
+LookAt 3 4 3 # eye
 .5 .5 0 # look at point
 0 0 1 # up vector
 Camera "perspective" "float fov" 45
 
-Sampler "random" "integer pixelsamples" 4
+Sampler "random" "integer pixelsamples" 50
 Integrator "path" "integer maxdepth" [5]
 
-Film "image" "string filename" "simple_random.png"
-"integer xresolution" [400] "integer yresolution" [200]
+Film "image" "string filename" "simple_random.exr"
+"integer xresolution" [400] "integer yresolution" [400]
 
 WorldBegin
 
 
 AttributeBegin
 AreaLightSource "diffuse" "rgb L" [ 500.0 500.0 500.0 ]
-Translate 3 3 1
+Translate 3 0 5
 Shape "sphere" "float radius" [.30]
 AttributeEnd
 
+AttributeBegin
+Material "anisotropicPhong" "rgb Rd" [ 0.01 0.01 0.01 ] "rgb Rs" [.5 .5 .5 ] "float nv" [10.0] "float nu" [10000.
+0]
+Shape "sphere" "float radius" 1
+AttributeEnd
 
 
 AttributeBegin

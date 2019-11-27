@@ -214,6 +214,7 @@ CMakeFiles/pbrt.dir/src/core/api.cpp.o
  ../src/lights/point.h
  ../src/lights/projection.h
  ../src/lights/spot.h
+ ../src/materials/anisotropicphong.h
  ../src/materials/disney.h
  ../src/materials/fourier.h
  ../src/materials/glass.h
@@ -1497,6 +1498,29 @@ CMakeFiles/pbrt.dir/src/lights/spot.cpp.o
  ../src/ext/glog/src/glog/log_severity.h
  ../src/lights/spot.h
  /home/nizq/Downloads/computer graphic/pbrt-v3/src/lights/spot.cpp
+ src/ext/glog/glog/logging.h
+ src/ext/glog/glog/vlog_is_on.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o
+ ../src/core/error.h
+ ../src/core/fileutil.h
+ ../src/core/geometry.h
+ ../src/core/interaction.h
+ ../src/core/material.h
+ ../src/core/medium.h
+ ../src/core/memory.h
+ ../src/core/microfacet.h
+ ../src/core/paramset.h
+ ../src/core/pbrt.h
+ ../src/core/quaternion.h
+ ../src/core/reflection.h
+ ../src/core/shape.h
+ ../src/core/spectrum.h
+ ../src/core/stringprint.h
+ ../src/core/texture.h
+ ../src/core/transform.h
+ ../src/ext/glog/src/glog/log_severity.h
+ ../src/materials/anisotropicphong.h
+ /home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp
  src/ext/glog/glog/logging.h
  src/ext/glog/glog/vlog_is_on.h
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o

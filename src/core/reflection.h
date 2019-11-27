@@ -233,6 +233,7 @@ inline std::ostream &operator<<(std::ostream &os, const BxDF &bxdf) {
     return os;
 }
 
+
 class ScaledBxDF : public BxDF {
   public:
     // ScaledBxDF Public Methods
@@ -523,6 +524,32 @@ inline int BSDF::NumComponents(BxDFType flags) const {
         if (bxdfs[i]->MatchesFlags(flags)) ++num;
     return num;
 }
+
+
+class AnosotropicPhongBxDF: public BxDF{
+  public:
+    AnosotropicPhongBxDF(const SurfaceInteraction &si, Spectrum Rd, Spectrum Rs, Float nu, Float nv):
+      Rd(Rd), Rs(Rs), nu(nu), nv(nv), Ng(si.shading.n),
+      BxDF(BxDFType(BSDF_DIFFUSE | BSDF_SPECULAR )){
+        u = Normalize(si.shading.dpdu);
+        v = Normalize(si.shading.dpdv);
+      }
+    Spectrum f(const Vector3f &wo, const Vector3f &wi) const;
+
+    Spectrum Sample_f(const Vector3f &wo, Vector3f *wi,
+                              const Point2f &sample, Float *pdf,
+                              BxDFType *sampledType = nullptr) ;
+
+  std::string ToString() const;
+    Float Ph(const Vector3f & h);
+    Float Pdf(const Vector3f &wo, const Vector3f &wi);
+  private:
+    Spectrum Rd, Rs;
+    Float nu, nv;
+    Normal3f Ng;
+    Vector3f u,v;
+};
+
 
 }  // namespace pbrt
 

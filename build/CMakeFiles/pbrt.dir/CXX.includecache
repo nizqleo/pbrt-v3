@@ -28,6 +28,34 @@ stringprint.h
 iterator
 -
 
+../src/core/interaction.h
+pbrt.h
+../src/core/pbrt.h
+geometry.h
+../src/core/geometry.h
+transform.h
+../src/core/transform.h
+medium.h
+../src/core/medium.h
+material.h
+../src/core/material.h
+
+../src/core/material.h
+pbrt.h
+../src/core/pbrt.h
+memory.h
+../src/core/memory.h
+
+../src/core/medium.h
+pbrt.h
+../src/core/pbrt.h
+geometry.h
+../src/core/geometry.h
+spectrum.h
+../src/core/spectrum.h
+memory
+-
+
 ../src/core/memory.h
 pbrt.h
 ../src/core/pbrt.h
@@ -35,6 +63,12 @@ list
 -
 cstddef
 -
+
+../src/core/microfacet.h
+pbrt.h
+../src/core/pbrt.h
+geometry.h
+../src/core/geometry.h
 
 ../src/core/paramset.h
 pbrt.h
@@ -98,51 +132,35 @@ stringprint.h
 geometry.h
 ../src/core/geometry.h
 
-../src/core/rng.h
-pbrt.h
-../src/core/pbrt.h
-
-../src/core/sampler.h
+../src/core/reflection.h
 pbrt.h
 ../src/core/pbrt.h
 geometry.h
 ../src/core/geometry.h
-rng.h
-../src/core/rng.h
-inttypes.h
--
+microfacet.h
+../src/core/microfacet.h
+shape.h
+../src/core/shape.h
+spectrum.h
+../src/core/spectrum.h
 
-../src/core/sampling.h
+../src/core/shape.h
 pbrt.h
 ../src/core/pbrt.h
 geometry.h
 ../src/core/geometry.h
-rng.h
-../src/core/rng.h
-algorithm
--
+interaction.h
+../src/core/interaction.h
+memory.h
+../src/core/memory.h
+transform.h
+../src/core/transform.h
 
 ../src/core/spectrum.h
 pbrt.h
 ../src/core/pbrt.h
 stringprint.h
 ../src/core/stringprint.h
-
-../src/core/stats.h
-pbrt.h
-../src/core/pbrt.h
-map
--
-cfloat
--
-chrono
--
-string
--
-functional
--
-mutex
--
 
 ../src/core/stringprint.h
 pbrt.h
@@ -180,25 +198,25 @@ quaternion.h
 
 ../src/ext/glog/src/glog/log_severity.h
 
-../src/samplers/poissondisk.h
-sampler.h
-../src/samplers/sampler.h
-rng.h
-../src/samplers/rng.h
+../src/materials/anisotropicphong.h
+pbrt.h
+../src/materials/pbrt.h
+material.h
+../src/materials/material.h
 
-/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/poissondisk.cpp
-samplers/poissondisk.h
-/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/samplers/poissondisk.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp
+materials/anisotropicphong.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/materials/anisotropicphong.h
 paramset.h
-/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/paramset.h
-sampling.h
-/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/sampling.h
-stats.h
-/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/stats.h
-vector
--
-set
--
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/paramset.h
+reflection.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/reflection.h
+interaction.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/interaction.h
+texture.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/texture.h
+interaction.h
+/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/interaction.h
 
 src/ext/glog/glog/logging.h
 errno.h

@@ -66,6 +66,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pbrt.dir/src/lights/point.cpp.o"
   "CMakeFiles/pbrt.dir/src/lights/projection.cpp.o"
   "CMakeFiles/pbrt.dir/src/lights/spot.cpp.o"
+  "CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o"
   "CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
   "CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
   "CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"

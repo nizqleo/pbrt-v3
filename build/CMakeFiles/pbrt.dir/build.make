@@ -928,9 +928,22 @@ CMakeFiles/pbrt.dir/src/lights/spot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/lights/spot.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nizq/Downloads/computer graphic/pbrt-v3/src/lights/spot.cpp" -o CMakeFiles/pbrt.dir/src/lights/spot.cpp.s
 
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: CMakeFiles/pbrt.dir/flags.make
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/materials/anisotropicphong.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp"
+
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp" > CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.i
+
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/anisotropicphong.cpp" -o CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.s
+
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: ../src/materials/disney.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/pbrt.dir/src/materials/disney.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/disney.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/disney.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/pbrt.dir/src/materials/disney.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o: ../src/materials/fourier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/fourier.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/pbrt.dir/src/materials/fourier.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.o: ../src/materials/glass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/pbrt.dir/src/materials/glass.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/glass.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/glass.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/glass.cpp.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/pbrt.dir/src/materials/glass.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o: ../src/materials/hair.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/pbrt.dir/src/materials/hair.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/pbrt.dir/src/materials/hair.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/hair.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/hair.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/pbrt.dir/src/materials/hair.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o: ../src/materials/kdsubsurface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/kdsubsurface.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.i: cmake_force
@@ -995,7 +1008,7 @@ CMakeFiles/pbrt.dir/src/materials/kdsubsurface.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.o: ../src/materials/matte.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/pbrt.dir/src/materials/matte.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/pbrt.dir/src/materials/matte.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/matte.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/matte.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/matte.cpp.i: cmake_force
@@ -1008,7 +1021,7 @@ CMakeFiles/pbrt.dir/src/materials/matte.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.o: ../src/materials/metal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/pbrt.dir/src/materials/metal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/pbrt.dir/src/materials/metal.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/metal.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/metal.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/metal.cpp.i: cmake_force
@@ -1021,7 +1034,7 @@ CMakeFiles/pbrt.dir/src/materials/metal.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o: ../src/materials/mirror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/mirror.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/mirror.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/mirror.cpp.i: cmake_force
@@ -1034,7 +1047,7 @@ CMakeFiles/pbrt.dir/src/materials/mirror.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o: ../src/materials/mixmat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/mixmat.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.i: cmake_force
@@ -1047,7 +1060,7 @@ CMakeFiles/pbrt.dir/src/materials/mixmat.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o: ../src/materials/plastic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/plastic.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/plastic.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/plastic.cpp.i: cmake_force
@@ -1060,7 +1073,7 @@ CMakeFiles/pbrt.dir/src/materials/plastic.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o: ../src/materials/substrate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/substrate.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/substrate.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/substrate.cpp.i: cmake_force
@@ -1073,7 +1086,7 @@ CMakeFiles/pbrt.dir/src/materials/substrate.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o: ../src/materials/subsurface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/subsurface.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.i: cmake_force
@@ -1086,7 +1099,7 @@ CMakeFiles/pbrt.dir/src/materials/subsurface.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o: ../src/materials/translucent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/translucent.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/translucent.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/translucent.cpp.i: cmake_force
@@ -1099,7 +1112,7 @@ CMakeFiles/pbrt.dir/src/materials/translucent.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.o: ../src/materials/uber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/pbrt.dir/src/materials/uber.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/pbrt.dir/src/materials/uber.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/materials/uber.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/materials/uber.cpp"
 
 CMakeFiles/pbrt.dir/src/materials/uber.cpp.i: cmake_force
@@ -1112,7 +1125,7 @@ CMakeFiles/pbrt.dir/src/materials/uber.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/media/grid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/media/grid.cpp.o: ../src/media/grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/pbrt.dir/src/media/grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/pbrt.dir/src/media/grid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/media/grid.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/media/grid.cpp"
 
 CMakeFiles/pbrt.dir/src/media/grid.cpp.i: cmake_force
@@ -1125,7 +1138,7 @@ CMakeFiles/pbrt.dir/src/media/grid.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o: ../src/media/homogeneous.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/media/homogeneous.cpp"
 
 CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.i: cmake_force
@@ -1138,7 +1151,7 @@ CMakeFiles/pbrt.dir/src/media/homogeneous.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o: ../src/samplers/halton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/halton.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/halton.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/halton.cpp.i: cmake_force
@@ -1151,7 +1164,7 @@ CMakeFiles/pbrt.dir/src/samplers/halton.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o: ../src/samplers/maxmin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/maxmin.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.i: cmake_force
@@ -1164,7 +1177,7 @@ CMakeFiles/pbrt.dir/src/samplers/maxmin.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.o: ../src/samplers/poissondisk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/poissondisk.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.i: cmake_force
@@ -1177,7 +1190,7 @@ CMakeFiles/pbrt.dir/src/samplers/poissondisk.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.o: ../src/samplers/random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/random.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/random.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/random.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/random.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/random.cpp.i: cmake_force
@@ -1190,7 +1203,7 @@ CMakeFiles/pbrt.dir/src/samplers/random.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o: ../src/samplers/sobol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/sobol.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.i: cmake_force
@@ -1203,7 +1216,7 @@ CMakeFiles/pbrt.dir/src/samplers/sobol.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o: ../src/samplers/stratified.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/stratified.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.i: cmake_force
@@ -1216,7 +1229,7 @@ CMakeFiles/pbrt.dir/src/samplers/stratified.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o: ../src/samplers/zerotwosequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/samplers/zerotwosequence.cpp"
 
 CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.i: cmake_force
@@ -1229,7 +1242,7 @@ CMakeFiles/pbrt.dir/src/samplers/zerotwosequence.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o: ../src/shapes/cone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/cone.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/cone.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/cone.cpp.i: cmake_force
@@ -1242,7 +1255,7 @@ CMakeFiles/pbrt.dir/src/shapes/cone.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o: ../src/shapes/curve.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/curve.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/curve.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/curve.cpp.i: cmake_force
@@ -1255,7 +1268,7 @@ CMakeFiles/pbrt.dir/src/shapes/curve.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o: ../src/shapes/cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/cylinder.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.i: cmake_force
@@ -1268,7 +1281,7 @@ CMakeFiles/pbrt.dir/src/shapes/cylinder.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o: ../src/shapes/disk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/disk.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/disk.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/disk.cpp.i: cmake_force
@@ -1281,7 +1294,7 @@ CMakeFiles/pbrt.dir/src/shapes/disk.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o: ../src/shapes/heightfield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/heightfield.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.i: cmake_force
@@ -1294,7 +1307,7 @@ CMakeFiles/pbrt.dir/src/shapes/heightfield.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o: ../src/shapes/hyperboloid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/hyperboloid.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.i: cmake_force
@@ -1307,7 +1320,7 @@ CMakeFiles/pbrt.dir/src/shapes/hyperboloid.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o: ../src/shapes/loopsubdiv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/loopsubdiv.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.i: cmake_force
@@ -1320,7 +1333,7 @@ CMakeFiles/pbrt.dir/src/shapes/loopsubdiv.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o: ../src/shapes/nurbs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/nurbs.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.i: cmake_force
@@ -1333,7 +1346,7 @@ CMakeFiles/pbrt.dir/src/shapes/nurbs.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o: ../src/shapes/paraboloid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/paraboloid.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.i: cmake_force
@@ -1346,7 +1359,7 @@ CMakeFiles/pbrt.dir/src/shapes/paraboloid.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o: ../src/shapes/plymesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/plymesh.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.i: cmake_force
@@ -1359,7 +1372,7 @@ CMakeFiles/pbrt.dir/src/shapes/plymesh.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o: ../src/shapes/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/sphere.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.i: cmake_force
@@ -1372,7 +1385,7 @@ CMakeFiles/pbrt.dir/src/shapes/sphere.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o: ../src/shapes/triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/shapes/triangle.cpp"
 
 CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.i: cmake_force
@@ -1385,7 +1398,7 @@ CMakeFiles/pbrt.dir/src/shapes/triangle.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o: ../src/textures/bilerp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/bilerp.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.i: cmake_force
@@ -1398,7 +1411,7 @@ CMakeFiles/pbrt.dir/src/textures/bilerp.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o: ../src/textures/checkerboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/checkerboard.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.i: cmake_force
@@ -1411,7 +1424,7 @@ CMakeFiles/pbrt.dir/src/textures/checkerboard.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.o: ../src/textures/constant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/pbrt.dir/src/textures/constant.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/pbrt.dir/src/textures/constant.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/constant.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/constant.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/constant.cpp.i: cmake_force
@@ -1424,7 +1437,7 @@ CMakeFiles/pbrt.dir/src/textures/constant.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.o: ../src/textures/dots.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/pbrt.dir/src/textures/dots.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/pbrt.dir/src/textures/dots.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/dots.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/dots.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/dots.cpp.i: cmake_force
@@ -1437,7 +1450,7 @@ CMakeFiles/pbrt.dir/src/textures/dots.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o: ../src/textures/fbm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/fbm.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/fbm.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/fbm.cpp.i: cmake_force
@@ -1450,7 +1463,7 @@ CMakeFiles/pbrt.dir/src/textures/fbm.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o: ../src/textures/imagemap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/imagemap.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.i: cmake_force
@@ -1463,7 +1476,7 @@ CMakeFiles/pbrt.dir/src/textures/imagemap.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.o: ../src/textures/marble.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/pbrt.dir/src/textures/marble.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/pbrt.dir/src/textures/marble.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/marble.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/marble.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/marble.cpp.i: cmake_force
@@ -1476,7 +1489,7 @@ CMakeFiles/pbrt.dir/src/textures/marble.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.o: ../src/textures/mix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/pbrt.dir/src/textures/mix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/pbrt.dir/src/textures/mix.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/mix.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/mix.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/mix.cpp.i: cmake_force
@@ -1489,7 +1502,7 @@ CMakeFiles/pbrt.dir/src/textures/mix.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o: ../src/textures/ptex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/ptex.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/ptex.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/ptex.cpp.i: cmake_force
@@ -1502,7 +1515,7 @@ CMakeFiles/pbrt.dir/src/textures/ptex.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.o: ../src/textures/scale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/pbrt.dir/src/textures/scale.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/pbrt.dir/src/textures/scale.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/scale.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/scale.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/scale.cpp.i: cmake_force
@@ -1515,7 +1528,7 @@ CMakeFiles/pbrt.dir/src/textures/scale.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.o: ../src/textures/uv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/pbrt.dir/src/textures/uv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/pbrt.dir/src/textures/uv.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/uv.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/uv.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/uv.cpp.i: cmake_force
@@ -1528,7 +1541,7 @@ CMakeFiles/pbrt.dir/src/textures/uv.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.o: ../src/textures/windy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/pbrt.dir/src/textures/windy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/pbrt.dir/src/textures/windy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/windy.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/windy.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/windy.cpp.i: cmake_force
@@ -1541,7 +1554,7 @@ CMakeFiles/pbrt.dir/src/textures/windy.cpp.s: cmake_force
 
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o: CMakeFiles/pbrt.dir/flags.make
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o: ../src/textures/wrinkled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o -c "/home/nizq/Downloads/computer graphic/pbrt-v3/src/textures/wrinkled.cpp"
 
 CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.i: cmake_force
@@ -1621,6 +1634,7 @@ pbrt_OBJECTS = \
 "CMakeFiles/pbrt.dir/src/lights/point.cpp.o" \
 "CMakeFiles/pbrt.dir/src/lights/projection.cpp.o" \
 "CMakeFiles/pbrt.dir/src/lights/spot.cpp.o" \
+"CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o" \
 "CMakeFiles/pbrt.dir/src/materials/disney.cpp.o" \
 "CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o" \
 "CMakeFiles/pbrt.dir/src/materials/glass.cpp.o" \
@@ -1740,6 +1754,7 @@ libpbrt.a: CMakeFiles/pbrt.dir/src/lights/infinite.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/lights/point.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/lights/projection.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/lights/spot.cpp.o
+libpbrt.a: CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/materials/disney.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/materials/glass.cpp.o
@@ -1790,7 +1805,7 @@ libpbrt.a: CMakeFiles/pbrt.dir/src/textures/windy.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/src/textures/wrinkled.cpp.o
 libpbrt.a: CMakeFiles/pbrt.dir/build.make
 libpbrt.a: CMakeFiles/pbrt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Linking CXX static library libpbrt.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nizq/Downloads/computer graphic/pbrt-v3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Linking CXX static library libpbrt.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pbrt.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pbrt.dir/link.txt --verbose=$(VERBOSE)
 

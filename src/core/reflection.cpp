@@ -797,4 +797,54 @@ std::string BSDF::ToString() const {
     return s + std::string(" ]");
 }
 
+Float AnosotropicPhongBxDF::Ph(const Vector3f & h){
+    Float top = nu*Cos2Phi(h) + nv*Sin2Phi(h);
+    return pow(Dot(Ng, h), top)*sqrt((nv+1)*(nu+1))/(2*Pi);
+}
+
+Float AnosotropicPhongBxDF::Pdf(const Vector3f &wo, const Vector3f &wi)  {
+    Vector3f h = Normalize(wo+wi);
+    return Ph(h)/(4.f*(Dot(wo, h)));
+}
+
+
+Spectrum AnosotropicPhongBxDF::Sample_f(const Vector3f &wo, Vector3f *wi, const Point2f &u,
+                        Float *pdf, BxDFType *sampledType)  {
+    // Cosine-sample the hemisphere, flipping the direction if necessary
+    int turnRound = u.x/0.25;
+    Float epsilon1 = u.x-0.25*turnRound;
+    Float phi = sqrt((nu+1.f)/(nv+1.f))*tan(PiOver2*epsilon1);
+    phi += PiOver2*turnRound;
+    Float cosTheta = pow((1-u.y), 1.f/(1.f+nu*cos(phi)*cos(phi)+ nv*sin(phi)*sin(phi)));
+    *wi = Vector3f(cosTheta*sin(phi), cosTheta*cos(phi) ,sqrt(1-cosTheta*cosTheta));
+    
+    *pdf = Pdf(wo, *wi);
+
+    return f(wo, *wi);
+}
+
+Spectrum AnosotropicPhongBxDF::f(const Vector3f &wo, const Vector3f &wi) const{
+
+    Vector3f h = Normalize(wo+wi);
+    Float kh = Dot(h,wo);
+    Spectrum ones(1.f);
+    Spectrum rhos = Rs + (ones-Rs)*(1.f-pow(kh, 5.f));
+    Float sScale = sqrt((nu+1)*(nv+1))/(8.f*Pi);
+    sScale *= pow(Dot(Ng, h), (nu*(Dot(h,u)*Dot(h,u)) + nv*(Dot(h,v)*Dot(h,v)))/(1-Dot(Ng, h)*Dot(Ng, h)));
+    sScale /= (kh)*std::max(Dot(Ng,wi), Dot(Ng, wo));
+    rhos *= sScale;
+
+    Spectrum rhod = Rd*(ones - Rs);
+    Float dScale = 28.f/(23.f*Pi);
+    dScale *= (1.f-pow((1.f - Dot(Ng,wo)/2.f), 5))*(1.f-pow((1.f - Dot(Ng,wi)/2.f), 5));
+    rhod *= dScale;
+
+    return rhos+rhod;
+}
+
+std::string AnosotropicPhongBxDF::ToString() const {
+    std::string s = StringPrintf("[ Don't know what to print!" );
+    return s + std::string(" ]");
+}
+
 }  // namespace pbrt

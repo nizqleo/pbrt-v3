@@ -2844,6 +2844,33 @@ src/main/pbrt.cpp.s:
 	$(MAKE) -f CMakeFiles/pbrt_exe.dir/build.make CMakeFiles/pbrt_exe.dir/src/main/pbrt.cpp.s
 .PHONY : src/main/pbrt.cpp.s
 
+src/materials/anisotropicphong.o: src/materials/anisotropicphong.cpp.o
+
+.PHONY : src/materials/anisotropicphong.o
+
+# target to build an object file
+src/materials/anisotropicphong.cpp.o:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o
+.PHONY : src/materials/anisotropicphong.cpp.o
+
+src/materials/anisotropicphong.i: src/materials/anisotropicphong.cpp.i
+
+.PHONY : src/materials/anisotropicphong.i
+
+# target to preprocess a source file
+src/materials/anisotropicphong.cpp.i:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.i
+.PHONY : src/materials/anisotropicphong.cpp.i
+
+src/materials/anisotropicphong.s: src/materials/anisotropicphong.cpp.s
+
+.PHONY : src/materials/anisotropicphong.s
+
+# target to generate assembly for a file
+src/materials/anisotropicphong.cpp.s:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.s
+.PHONY : src/materials/anisotropicphong.cpp.s
+
 src/materials/disney.o: src/materials/disney.cpp.o
 
 .PHONY : src/materials/disney.o
@@ -5070,6 +5097,9 @@ help:
 	@echo "... src/main/pbrt.o"
 	@echo "... src/main/pbrt.i"
 	@echo "... src/main/pbrt.s"
+	@echo "... src/materials/anisotropicphong.o"
+	@echo "... src/materials/anisotropicphong.i"
+	@echo "... src/materials/anisotropicphong.s"
 	@echo "... src/materials/disney.o"
 	@echo "... src/materials/disney.i"
 	@echo "... src/materials/disney.s"

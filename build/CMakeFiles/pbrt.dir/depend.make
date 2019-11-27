@@ -213,6 +213,7 @@ CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/lights/infinite.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/lights/point.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/lights/projection.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/lights/spot.h
+CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/materials/anisotropicphong.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/materials/disney.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/materials/fourier.h
 CMakeFiles/pbrt.dir/src/core/api.cpp.o: ../src/materials/glass.h
@@ -1498,6 +1499,29 @@ CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: ../src/lights/spot.h
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: ../src/lights/spot.cpp
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: src/ext/glog/glog/logging.h
 CMakeFiles/pbrt.dir/src/lights/spot.cpp.o: src/ext/glog/glog/vlog_is_on.h
+
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/error.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/fileutil.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/geometry.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/interaction.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/material.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/medium.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/memory.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/microfacet.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/paramset.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/pbrt.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/quaternion.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/reflection.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/shape.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/spectrum.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/stringprint.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/texture.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/core/transform.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/ext/glog/src/glog/log_severity.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/materials/anisotropicphong.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: ../src/materials/anisotropicphong.cpp
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: src/ext/glog/glog/logging.h
+CMakeFiles/pbrt.dir/src/materials/anisotropicphong.cpp.o: src/ext/glog/glog/vlog_is_on.h
 
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: ../src/core/bssrdf.h
 CMakeFiles/pbrt.dir/src/materials/disney.cpp.o: ../src/core/error.h

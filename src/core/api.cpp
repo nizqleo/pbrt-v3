@@ -73,6 +73,7 @@
 #include "materials/hair.h"
 #include "materials/kdsubsurface.h"
 #include "materials/matte.h"
+#include "materials/anisotropicphong.h"
 #include "materials/metal.h"
 #include "materials/mirror.h"
 #include "materials/mixmat.h"
@@ -554,6 +555,8 @@ std::shared_ptr<Material> MakeMaterial(const std::string &name,
         material = CreateHairMaterial(mp);
     else if (name == "disney")
         material = CreateDisneyMaterial(mp);
+    else if (name == "anisotropicPhong")
+        material = CreateAnisotropicPhongMaterial(mp);
     else if (name == "mix") {
         std::string m1 = mp.FindString("namedmaterial1", "");
         std::string m2 = mp.FindString("namedmaterial2", "");
