@@ -528,26 +528,26 @@ inline int BSDF::NumComponents(BxDFType flags) const {
 
 class AnosotropicPhongBxDF: public BxDF{
   public:
-    AnosotropicPhongBxDF(const SurfaceInteraction &si, Spectrum Rd, Spectrum Rs, Float nu, Float nv):
-      Rd(Rd), Rs(Rs), nu(nu), nv(nv), Ng(si.shading.n),
-      BxDF(BxDFType(BSDF_DIFFUSE | BSDF_SPECULAR )){
-        u = Normalize(si.shading.dpdu);
-        v = Normalize(si.shading.dpdv);
+    AnosotropicPhongBxDF(Spectrum Rd, Spectrum Rs, Float nu, Float nv):
+      Rd(Rd), Rs(Rs), nu(nu), nv(nv),
+      BxDF(BxDFType(BSDF_DIFFUSE | BSDF_REFLECTION)){
+
       }
     Spectrum f(const Vector3f &wo, const Vector3f &wi) const;
+    Spectrum rounded_f(const Vector3f &wo, const Vector3f &wi) const;
 
     Spectrum Sample_f(const Vector3f &wo, Vector3f *wi,
                               const Point2f &sample, Float *pdf,
-                              BxDFType *sampledType = nullptr) ;
+                              BxDFType *sampledType = nullptr) const;
 
-  std::string ToString() const;
-    Float Ph(const Vector3f & h);
-    Float Pdf(const Vector3f &wo, const Vector3f &wi);
+    std::string ToString() const;
+
+    Float Pdf(const Vector3f &wo, const Vector3f &wi)const;
+
   private:
     Spectrum Rd, Rs;
     Float nu, nv;
-    Normal3f Ng;
-    Vector3f u,v;
+
 };
 
 
