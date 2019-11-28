@@ -54,11 +54,8 @@ void AnisotropicPhongMaterial::ComputeScatteringFunctions(SurfaceInteraction *si
     Float Nu = NU->Evaluate(*si);//.Clamp();
     Float Nv = NV->Evaluate(*si);//.Clamp();
 
-    BxDF *spec = ARENA_ALLOC(arena, AnosotropicPhongBxDF)(*si, Rd, Rs, Nu, Nv);
-    // BxDF *spec =
-            
-    //assert(spec != NULL);
     si->bsdf = ARENA_ALLOC(arena, BSDF)(*si);
+    BxDF *spec = ARENA_ALLOC(arena, AnosotropicPhongBxDF)(Rd, Rs, Nu, Nv);
     si->bsdf->Add(spec);
 }
 
@@ -72,7 +69,7 @@ AnisotropicPhongMaterial *CreateAnisotropicPhongMaterial(const TextureParams &mp
     std::shared_ptr<Texture<Float>> NU = mp.GetFloatTexture("nu", 10000.f);
     std::shared_ptr<Texture<Float>> bumpMap =
         mp.GetFloatTextureOrNull("bumpmap");
-    return new AnisotropicPhongMaterial(Rd, Rs, NV, NU, bumpMap);
+    return new AnisotropicPhongMaterial(Rd, Rs, NU, NV, bumpMap);
 }
 
 }  // namespace pbrt

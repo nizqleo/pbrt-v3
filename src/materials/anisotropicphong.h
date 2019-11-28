@@ -58,7 +58,6 @@ class AnisotropicPhongMaterial : public Material {
         NU(Nu), 
         NV(Nv) , 
         bumpMap(bumpMap) {
-          printf("building material\n");
         }
     void ComputeScatteringFunctions(SurfaceInteraction *si, MemoryArena &arena,
                                     TransportMode mode,
